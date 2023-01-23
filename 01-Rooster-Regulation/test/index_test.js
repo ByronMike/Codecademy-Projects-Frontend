@@ -36,13 +36,13 @@ describe("Rooster", () => {
       }, RangeError);
     });
     it("throws an error if passed a number greater than 23", () => {
-        // Define expected output
-        const hour = 24;
-        // Use an assert method to compare actual and expected result
-        const expected = hour.toString;
-        assert.throws(() => {
-          Rooster.timeAtDawn(hour);
-        }, RangeError);
-      });
+      // Define expected output
+      const hour = 24;
+      // Use an assert method to compare actual and expected result
+      const expected = hour.toString;
+      assert.throws(() => {
+        Rooster.timeAtDawn(hour);
+      }, RangeError);
+    });
   });
 });
