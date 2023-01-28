@@ -72,7 +72,7 @@ const showRandomMovie = async () => {
   const movies = await getMovies();
   const randomMovie = await getRandomMovie(movies);
   const info = await getMovieInfo(randomMovie);
-  displayMovie(info)
+  displayMovie(info);
 };
 
 getGenres().then(populateGenreDropdown);
