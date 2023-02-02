@@ -6,6 +6,7 @@ import { generateId, getNewExpirationTime } from "./utilities";
 
 import "./styles.css";
 
+// Note
 function App() {
   const [thoughts, setThoughts] = useState([
     {
